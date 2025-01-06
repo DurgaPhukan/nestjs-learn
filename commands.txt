@@ -1,0 +1,17 @@
+create a project => 
+generate a module named user => nest g module user
+start database container => docker compose up dev-db -d
+installing prisma => npm i -D prisma
+install prisma client => npm i @prisma/client
+initialize prisma => npx prisma init
+
+for getting help prisma => npx prisma --help
+migrating => npx prisma migrate dev
+generate typescript types for schema => npx prisma generate
+visualize prisma => npx prisma studio
+create a module for prisma => nest g module prisma
+create a service in the module prisma => nest g service prisma --no-spec
+dto validation => npm i class-validator class-transformer
+installing argon2 (like bcrypt for hashing) => npm i argon2
+
+install modules that are provided by nest js => npm i @nestjs/config
